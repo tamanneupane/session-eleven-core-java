@@ -1,0 +1,9 @@
+
+If git was not there:
+
+1. Collaboration of multiple developers working in same project.
+2. Accidental deletion of project recovery was not possible.
+3. Reverting the code back to certain date is impossible.
+4. Creating separate copy of the project for new feature and after completion of the feature merging it back
+to original code is nearly impossible.
+5. Sharing the code takes alot of time eg : uploading to drive and downloading from drive
