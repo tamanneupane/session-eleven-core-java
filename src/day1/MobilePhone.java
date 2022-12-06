@@ -4,16 +4,25 @@ public class MobilePhone {
 
     // States
 
-    // OS
-    // Color
-    // Price
-    // Size
-    // Brand
-    // Storage
-    // No of cameras
-    // Connectivity
-    // battery
-    // Display
+    // OS (String)
+    // Color (String)
+    // Price (float)
+    // Size (float)
+    // Size Unit (String)
+    // Brand (String)
+    // Storage (int)
+    // StorageUnit (String)(GB/TB)
+    // No of cameras (int)
+    // Connectivity (String)
+    // battery (String)
+    // Display (String)
 
-    // Behaviours
+    // Behaviours(Ecommerce)
+
+    // buy
+    // add to cart
+    // share
+    // like
+    // increase quantity
+    // add to wishlist
 }
