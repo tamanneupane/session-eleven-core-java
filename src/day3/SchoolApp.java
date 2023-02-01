@@ -7,6 +7,10 @@ public class SchoolApp {
         Student ram = new Student();
         ram.getName();
 
+        ram.setGender(Gender.MALE);
+
+        System.out.println(ram.getGender().toString());
+
         Teacher hari = new Teacher();
         hari.getAge();
 

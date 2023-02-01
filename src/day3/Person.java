@@ -5,6 +5,7 @@ public class Person {
 
     private String name;
     private int age;
+    private Gender gender; // Male, Female or Others
 
     public String getName() {
         return name;
@@ -20,5 +21,13 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 }

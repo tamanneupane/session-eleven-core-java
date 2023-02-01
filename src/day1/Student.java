@@ -1,6 +1,6 @@
 package day1;
 
-public class Student {
+ class Student {
 
     // States
 
