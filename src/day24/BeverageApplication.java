@@ -2,10 +2,21 @@ package day24;
 
 import java.io.IOException;
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class BeverageApplication {
 
+    private static final Logger logger = Logger.getGlobal();
+
     public static void main(String[] args) {
+
+        if(args[0].equalsIgnoreCase("DEBUG")){
+            logger.setLevel(Level.ALL);
+        }else{
+            logger.setLevel(Level.WARNING);
+        }
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter your email : ");
