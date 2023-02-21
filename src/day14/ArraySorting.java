@@ -2,8 +2,7 @@ package day14;
 
 
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 public class ArraySorting {
 
@@ -21,5 +20,41 @@ public class ArraySorting {
         Arrays.sort(students, (o1, o2) -> o2.getAge() - o1.getAge());
 
         System.out.println(Arrays.toString(students));
+
+        String random = UUID.randomUUID().toString();
+        System.out.println(random);
+
+//        int randomNumber = (int) Math.round(Math.random() * 100);
+//        if(randomNumber > 70){
+//            randomNumber = 70;
+//        }
+//        System.out.println(randomNumber);
+
+        int i = 1;
+        Random randomInt = new Random();
+        LinkedHashSet<Integer> generatedNumbers = new LinkedHashSet<>();
+        while (i <= 6){
+            int rand = randomInt.nextInt(70);
+
+            if(generatedNumbers.contains(rand)) break;
+
+            if(i < 6)
+                generatedNumbers.add(rand);
+
+            if(i == 6 && rand <= 25){
+                generatedNumbers.add(rand);
+            }
+
+            i++;
+        }
+
+        System.out.println(generatedNumbers);
+
+        if(generatedNumbers.size() == 6){
+            System.out.println("Winner");
+        }else{
+            System.out.println("Looser");
+        }
+
     }
 }

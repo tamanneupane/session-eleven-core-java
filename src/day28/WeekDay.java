@@ -1,0 +1,5 @@
+package day28;
+
+public enum WeekDay {
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+}
