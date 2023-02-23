@@ -44,7 +44,6 @@ public class ArraySorting {
             if(i == 6 && rand <= 25){
                 generatedNumbers.add(rand);
             }
-
             i++;
         }
 
@@ -55,6 +54,5 @@ public class ArraySorting {
         }else{
             System.out.println("Looser");
         }
-
     }
 }
